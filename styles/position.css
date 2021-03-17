@@ -1,0 +1,27 @@
+.position body{
+  color:white;
+}
+.position .pannel{
+  height: 80vh;
+}
+
+.position header{
+  width: 100%;
+  position: fixed;
+  top:0;
+  padding: 1rem;
+  background-color: RGB(222, 255, 44);
+  z-index: -1;
+
+}
+
+.position .box{
+  display: inline-block;
+  background-color: RGB(222, 255, 44);
+  width: 25%;
+
+}
+.position .rel{
+  position: relative;
+  left: 10rem;
+}
