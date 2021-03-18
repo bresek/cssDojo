@@ -1,17 +1,42 @@
-.position body{
-  color:white;
-}
+
 .position .pannel{
   height: 80vh;
+  border-bottom: 2em solid RGB(222, 255, 44);
+  position:relative;
+
+
+}
+
+a{
+  text-decoration: none;
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+  color:black;
+}
+
+
+.position h1{
+  padding-top: 2rem;
 }
 
 .position header{
   width: 100%;
   position: fixed;
   top:0;
-  padding: 1rem;
+  padding: .5rem;
   background-color: RGB(222, 255, 44);
-  z-index: -1;
+  z-index: 1;
+
+}
+.nav{
+  list-style: none;
+  display: inline-block;
+  text-align: right;
+  margin: 0;
+  padding: 0;
+}
+.nav li{
+  display: inline;
 
 }
 
@@ -24,4 +49,10 @@
 .position .rel{
   position: relative;
   left: 10rem;
+}
+
+.position .abs{
+  position: absolute;
+  left: 10px;
+  top: 8px;
 }
